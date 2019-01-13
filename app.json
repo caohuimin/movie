@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/movies/movielist",
+    "pages/posts/post",
+    "pages/movies/more-movie/more-movie",
+    "pages/movies/movie-detail/movie-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#CC0000",
+    "navigationBarTitleText": "猪猪电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/movies/movielist",
+        "text": "电影",
+        "iconPath": "/images/icon/movie.png",
+        "selectedIconPath": "/images/icon/movie2.png"
+      },
+      {
+        "pagePath": "pages/posts/post",
+        "text": "订单",
+        "iconPath": "/images/icon/list.png",
+        "selectedIconPath": "/images/icon/list2.png"
+      }
+    ]
+  }
+}
